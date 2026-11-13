@@ -189,7 +189,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Do NFL Teams Panic Too Early in One-Score Games?</p>
 <p>Every football coach preaches the same thing: stay balanced, establish the run, and control the clock, but in the second half of a one-score game, that plan often disappears. Coaches tend to abandon the ground game as soon as it’s a one-score game entering the third or fourth quarter, even when there is still time left to stick to the game plan.</p>
 <p>Looking at NFL play-by-play data from games within one score in the second half shows how much teams abandon the run and rely heavily on the passing game.</p>
 <p>The Second Half Split</p>
@@ -272,14 +271,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Play share percentage"</span>, </span>
 <span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Team"</span>, </span>
 <span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Panic Mode or Balanced Plan? Pass vs. Run Splits"</span>, </span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Red points show pass play percentage and black points show run play percentage when trailing by 1 to 8 points in the second half.."</span>, </span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Red points show pass percentage and black points show run percentage when trailing by one score in the second half."</span>, </span>
 <span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NFL | By Christian Low"</span></span>
 <span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
 <span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">18</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
 <span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">9</span>), </span>
 <span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span></span>
 <span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>    ) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -292,7 +291,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Even in contests separated by a touchdown and two-point conversion or less, rushing takes a backseat across the league. While a couple of run-first offenses keep their pass-to-run gap pretty balanced. Most teams push their passing percentage above the 55 and 60 percent mark.</p>
+<p>Even in contests separated by a touchdown and two-point conversion or less, rushing takes a backseat across the league. While a couple of run-first offenses keep their pass-to-run gap pretty balanced, most teams push their passing percentage above the 55 and 60 percent mark.</p>
 <p>Shifting From Season Tendencies</p>
 <p>Comparing a team’s full-season passing rate to its second-half passing rate shows it isn’t a reflection of pass-happy teams.</p>
 <div class="cell">
@@ -328,7 +327,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">""</span>, </span>
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Passing play percentage"</span>, </span>
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Abandoning the Ground Game: How Trailing Shifts Play Calls"</span>, </span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Comparing each team's full-season pass percentage to their pass rate when down 1–8 points in the second half."</span>, </span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Each team's full-season pass percentage to their pass rate when down one score in the second half."</span>, </span>
 <span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NFL | By Christian Low"</span></span>
 <span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
@@ -380,7 +379,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
 <span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Team"</span>, </span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Total offensive plays"</span>, </span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Total offensive plays"</span>,</span>
 <span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Full-Season Play Volume"</span>, </span>
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Total offensive plays including pass and run."</span>, </span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">""</span></span>

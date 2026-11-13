@@ -55,7 +55,6 @@ font-style: inherit;">1</span></span></code></pre></div></div>
 
 
 
-<p>Do NFL Teams Panic Too Early in One-Score Games?</p>
 <p>Every football coach preaches the same thing: stay balanced, establish the run, and control the clock, but in the second half of a one-score game, that plan often disappears. Coaches tend to abandon the ground game as soon as it’s a one-score game entering the third or fourth quarter, even when there is still time left to stick to the game plan.</p>
 <p>Looking at NFL play-by-play data from games within one score in the second half shows how much teams abandon the run and rely heavily on the passing game.</p>
 <p>The Second Half Split</p>
@@ -352,7 +351,7 @@ font-style: inherit;">"Panic Mode or Balanced Plan? Pass vs. Run Splits"</span>,
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Red points show pass play percentage and black points show run play percentage when trailing by 1 to 8 points in the second half.."</span>, </span>
+font-style: inherit;">"Red points show pass percentage and black points show run percentage when trailing by one score in the second half."</span>, </span>
 <span id="cb1-77">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
@@ -399,7 +398,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span>), </span>
+font-style: inherit;">9</span>), </span>
 <span id="cb1-84">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
@@ -420,7 +419,7 @@ font-style: inherit;">"plot"</span></span>
 </div>
 </div>
 </div>
-<p>Even in contests separated by a touchdown and two-point conversion or less, rushing takes a backseat across the league. While a couple of run-first offenses keep their pass-to-run gap pretty balanced. Most teams push their passing percentage above the 55 and 60 percent mark.</p>
+<p>Even in contests separated by a touchdown and two-point conversion or less, rushing takes a backseat across the league. While a couple of run-first offenses keep their pass-to-run gap pretty balanced, most teams push their passing percentage above the 55 and 60 percent mark.</p>
 <p>Shifting From Season Tendencies</p>
 <p>Comparing a team’s full-season passing rate to its second-half passing rate shows it isn’t a reflection of pass-happy teams.</p>
 <div class="cell">
@@ -640,7 +639,7 @@ font-style: inherit;">"Abandoning the Ground Game: How Trailing Shifts Play Call
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Comparing each team's full-season pass percentage to their pass rate when down 1–8 points in the second half."</span>, </span>
+font-style: inherit;">"Each team's full-season pass percentage to their pass rate when down one score in the second half."</span>, </span>
 <span id="cb2-32">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
@@ -848,7 +847,7 @@ font-style: inherit;">"Team"</span>, </span>
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Total offensive plays"</span>, </span>
+font-style: inherit;">"Total offensive plays"</span>,</span>
 <span id="cb3-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
