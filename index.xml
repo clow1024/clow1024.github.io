@@ -46,16 +46,20 @@ font-style: inherit;">1</span></span></code></pre></div></div>
   <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
-  <title>CHANGE THIS TO BE THE TITLE OF YOUR POST</title>
+  <title>Do NFL teams Panic Too Early in One-Score Games?</title>
   <dc:creator>Christian Low</dc:creator>
-  <link>https://your-website-url.example.com/posts/do-superbowl-teams-regress/</link>
+  <link>https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>Hello, this is a test post</p>
+<p>Do NFL Teams Panic Too Early in One-Score Games?</p>
+<p>Every football coach preaches the same thing: stay balanced, establish the run, and control the clock, but in the second half of a one-score game, that plan often disappears. Coaches tend to abandon the ground game as soon as it’s a one-score game entering the third or fourth quarter, even when there is still time left to stick to the game plan.</p>
+<p>Looking at NFL play-by-play data from games within one score in the second half shows how much teams abandon the run and rely heavily on the passing game.</p>
+<p>The Second Half Split</p>
+<p>When games get close after halftime, virtually every NFL offense leans heavily on the passing game.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -333,7 +337,7 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">x=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"idk yet"</span>, </span>
+font-style: inherit;">"Play share percentage"</span>, </span>
 <span id="cb1-74">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
@@ -343,12 +347,12 @@ font-style: inherit;">"Team"</span>, </span>
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Which Team is more pass heavy when trailing in the second half?"</span>, </span>
+font-style: inherit;">"Panic Mode or Balanced Plan? Pass vs. Run Splits"</span>, </span>
 <span id="cb1-76">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"idk yet."</span>, </span>
+font-style: inherit;">"Red points show pass play percentage and black points show run play percentage when trailing by 1 to 8 points in the second half.."</span>, </span>
 <span id="cb1-77">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
@@ -411,11 +415,14 @@ font-style: inherit;">"plot"</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/do-superbowl-teams-regress/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>Even in contests separated by a touchdown and two-point conversion or less, rushing takes a backseat across the league. While a couple of run-first offenses keep their pass-to-run gap pretty balanced. Most teams push their passing percentage above the 55 and 60 percent mark.</p>
+<p>Shifting From Season Tendencies</p>
+<p>Comparing a team’s full-season passing rate to its second-half passing rate shows it isn’t a reflection of pass-happy teams.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -618,27 +625,27 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">x=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Offensive yards per play"</span>, </span>
+font-style: inherit;">""</span>, </span>
 <span id="cb2-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Passing Percent"</span>, </span>
+font-style: inherit;">"Passing play percentage"</span>, </span>
 <span id="cb2-30">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Nebraska was good, except where it mattered"</span>, </span>
+font-style: inherit;">"Abandoning the Ground Game: How Trailing Shifts Play Calls"</span>, </span>
 <span id="cb2-31">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"The Huskers offense and defense, on a per play basis, were among the elite in the sport."</span>, </span>
+font-style: inherit;">"Comparing each team's full-season pass percentage to their pass rate when down 1–8 points in the second half."</span>, </span>
 <span id="cb2-32">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Source: Data Provider | By Your Name"</span></span>
+font-style: inherit;">"Source: NFL | By Christian Low"</span></span>
 <span id="cb2-33">    ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
@@ -658,7 +665,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span>, <span class="at" style="color: #657422;
+font-style: inherit;">17</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -696,11 +703,13 @@ font-style: inherit;">"plot"</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/do-superbowl-teams-regress/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>Across the league, lines slope upwards when comparing a team’s full-season passing rate to one-score games. Teams like the Giants, Jets, Bengals, and Cardinals show both ends of the scale. Even teams that maintain a relatively balanced pass-and-run attack across all four quarters see their passing rate go up when they are down one score in the second half. Instead of running their standard offense, play callers start to panic and shift completely to the passing game.</p>
+<p>Volume Shows the Rest of the Story</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -807,7 +816,7 @@ font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"red"</span>, <span class="st" style="color: #20794D;
+font-style: inherit;">"orange"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"blue"</span>), </span>
 <span id="cb3-23">    <span class="at" style="color: #657422;
@@ -854,7 +863,7 @@ font-style: inherit;">"Total offensive plays including pass and run."</span>, </
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Source: NFL | Christian Low"</span></span>
+font-style: inherit;">""</span></span>
 <span id="cb3-32">    ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
@@ -952,7 +961,7 @@ font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"red"</span>, <span class="st" style="color: #20794D;
+font-style: inherit;">"orange"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"blue"</span>), </span>
 <span id="cb3-48">    <span class="at" style="color: #657422;
@@ -999,7 +1008,7 @@ font-style: inherit;">"Total plays executed while trailing 1–8 points."</span>
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Source: NFL | By Christian Low"</span></span>
+font-style: inherit;">"Source: NFL | Christian Low"</span></span>
 <span id="cb3-57">    ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
@@ -1061,11 +1070,13 @@ font-style: inherit;">+</span> bar2</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/do-superbowl-teams-regress/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>Breaking down total plays in second-half, one-score situations compared to the rest of the season shows teams run plays and throw the ball at a higher rate, suggesting they abandon the run in these second-half situations.</p>
+<p>When NFL offenses abandon the run in one-score second halves, they give up the element of surprise, play action loses its edge, clock management shifts in favor of the defense, and drives stall out faster when incomplete passes stop the clock. Abandoning the run makes life much easier for the defense before the fourth quarter even starts.</p>
 
 
 
@@ -1073,9 +1084,9 @@ font-style: inherit;">+</span> bar2</span></code></pre></div></div>
   <category>football</category>
   <category>superbowl</category>
   <category>nfl</category>
-  <guid>https://your-website-url.example.com/posts/do-superbowl-teams-regress/</guid>
+  <guid>https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/</guid>
   <pubDate>Mon, 02 Nov 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/do-superbowl-teams-regress/image.png" medium="image" type="image/png"/>
+  <media:content url="https://your-website-url.example.com/posts/do-nfl-teams-panic-too-early/image.png" medium="image" type="image/png" height="10" width="10"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
